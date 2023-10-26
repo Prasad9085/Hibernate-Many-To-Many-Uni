@@ -13,7 +13,7 @@ import ManyToMany_uni.dto.Student;
 
 public class CourseDao {
 
-	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("mayur");
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("prasad");
 	EntityManager entityManager = entityManagerFactory.createEntityManager();
 	EntityTransaction entityTransaction = entityManager.getTransaction();
 
