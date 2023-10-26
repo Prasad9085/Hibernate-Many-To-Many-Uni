@@ -14,7 +14,7 @@ import ManyToMany_uni.dto.Student;
 
 public class StudentDao {
 	
-	EntityManagerFactory entityManagerFactory =  Persistence.createEntityManagerFactory("mayur");
+	EntityManagerFactory entityManagerFactory =  Persistence.createEntityManagerFactory("prasad");
 	EntityManager entityManager =  entityManagerFactory.createEntityManager();
 	EntityTransaction entityTransaction =  entityManager.getTransaction();
 	public void saveStudent(Student s1 ,List<Integer> ids ) {
